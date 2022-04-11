@@ -24,11 +24,11 @@ button {
 
 }
 
-.projects, .lessen{
+.projects, .Talen{
     position: relative;
 }
 
-.projects ul, .lessen ul{
+.projects ul, .Talen ul{
     position: absolute;
     background: white;
     margin-top: 10px;
@@ -46,20 +46,20 @@ button {
     transition: all 0.4s ease;
 }
 
-.projects a, .lessen a{
+.projects a, .Talen a{
     color: black;
     text-decoration: none;
 
 }
 
-.projects li, .lessen li{
+.projects li, .Talen li{
       width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
 }
-.projects li:hover, .lessen li:hover{
+.projects li:hover, .Talen li:hover{
     background-color: lightgrey;
 
 }
@@ -78,7 +78,7 @@ button {
 
 
 .projects button:focus + ul,
-.lessen button:focus + ul, a:focus{
+.Talen button:focus + ul, a:focus{
     opacity: 1;
     pointer-events: auto;
 }

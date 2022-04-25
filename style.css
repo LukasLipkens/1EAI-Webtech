@@ -8,6 +8,8 @@ body{
     height: 100vh;
     font-family: "poppins", sans-serif;
     background-image: url("Ford Mustang.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 a,
 button {

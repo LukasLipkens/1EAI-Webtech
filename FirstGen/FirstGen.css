@@ -12,13 +12,6 @@ body{
     background-repeat: no-repeat;
 }
 
-h1{
-    text-align: center;
-    background-color: white;
-    margin: auto;
-    width: 400px;
-}
-
 table, th, td, tr{
     border: 1px solid black;
     width: 400px;
@@ -27,13 +20,29 @@ table, th, td, tr{
     background-color: white;
   }
 
-  .home{
-    font-family: "poppins", sans-serif;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  li {
+    text-align: center;
+  } 
+
+  .inactive
+  {
+      font-size: 30px;
+  }
+.active{
     background: none;
     border: none;
-    color: black    ;
+    color: black;
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
-  }
- 
+}
+
+  

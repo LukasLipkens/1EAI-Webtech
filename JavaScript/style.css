@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 body
 {
-    background-color: blue;
+    background-color: #FF0000;
+    transition: all 1.5s linear;
 }
 .calculator {
  padding: 10px;
@@ -37,7 +38,8 @@ body
  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
  box-shadow: inset 0px 0px 5px #c1c1c1;
 }
-.intro
+.start
 {
     text-align: center;
 }
+

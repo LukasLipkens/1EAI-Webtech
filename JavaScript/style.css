@@ -31,6 +31,7 @@ body
  border-radius: 5px;
  height: 70%;
  outline: none;
+ cursor: pointer;
 }
 .button:active {
  background: #e5e5e5;
@@ -42,4 +43,13 @@ body
 {
     text-align: center;
 }
-
+.HomeButton
+{
+    text-align:center;
+    background: none;
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+    cursor: pointer;
+}

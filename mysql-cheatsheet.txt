@@ -1,0 +1,8 @@
+USER:
+admin
+
+HOW TO GET INTO USER:
+mysql -u admin -p
+
+GRANT ALL:
+GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;

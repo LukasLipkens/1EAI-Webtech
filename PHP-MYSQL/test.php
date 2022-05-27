@@ -15,7 +15,7 @@ $sql = "INSERT INTO persons (firstname, lastname, city)
 VALUES ('Lukas', 'Lipkens', 'Bocholt')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
+  echo "New record created successfully\n";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }

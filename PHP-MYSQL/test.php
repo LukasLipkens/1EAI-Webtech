@@ -20,5 +20,18 @@ if ($conn->query($sql) === TRUE) {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
+$sql = "SELECT firstname, lastname, city FROM persons";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+      echo "firstname: " . $row["firstname"]. " - lastname: " . $row["lastname"]. "city" . $row["city"]. "<br>";
+  }
+} else {
+  echo "0 results";
+}
+
+
 $conn->close(); 
 ?>

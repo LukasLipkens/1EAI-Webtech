@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO persons (firstname, lastname, city)
-VALUES ('Lukas', 'Lipkens', 'Bocholt')";
+VALUES ('Ferre', 'Creemers', 'Bocholt')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully\n";
@@ -26,7 +26,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-      echo "firstname: " . $row["firstname"]. " - lastname: " . $row["lastname"]. "city" . $row["city"]. "<br>";
+      echo " - firstname: " . $row["firstname"]. " - lastname: " . $row["lastname"]. " - city" . $row["city"]. "<br>";
   }
 } else {
   echo "0 results";

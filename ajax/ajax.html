@@ -1,0 +1,27 @@
+
+    <!DOCTYPE html>
+    <html>
+    <body>
+    
+    <div id="demo">
+    <h2>BABY NUKE</h2>
+    </div>
+    <button type="button" onclick="loadDoc()">Dissapointing EXPLOSION</button>
+    <button><a href="../index.html">HOME</a></button>
+
+    
+    <script>
+    function loadDoc() {
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function() {
+        document.getElementById("demo").innerHTML =
+        this.responseText;
+      }
+      xhttp.open("GET", "test.txt");
+      xhttp.send();
+    }
+    </script>
+    
+    </body>
+    </html>
+    
